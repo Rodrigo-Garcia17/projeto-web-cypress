@@ -1,0 +1,45 @@
+Resumo Geral – Projeto QA (Cadastro de Usuário)
+
+📅 Período de execução:
+Novembro a Dezembro / 2025
+
+📍 Escopo:
+Testes funcionais e de validação da funcionalidade “Cadastro de Usuário” no ambiente de estudo Qazando Shop.
+
+--------------------------------------------
+📊 Status dos Casos de Teste
+--------------------------------------------
+Total de casos criados: 13
+✅ Passaram: 11
+❌ Falharam: 2 (CT05 e CT06)
+📁 Bugs documentados: 2 (mantidos como “Won’t Fix”)
+🎯 Cobertura de testes: 100% dos fluxos mapeados
+
+--------------------------------------------
+🧩 Ferramentas utilizadas
+--------------------------------------------
+- Jira → Gestão de testes e bugs
+- Cypress → Automação Web (E2E)
+- Faker.js → Geração dinâmica de dados
+- GitHub → Versionamento e portfólio
+- Qazando Shop → Ambiente de prática
+
+--------------------------------------------
+📎 Evidências disponíveis
+--------------------------------------------
+- jira/board_cadastro_usuario.png
+- jira/legenda_visual.png
+- jira/bug_CT05_nome_invalido.png
+- jira/bug_CT06_email_duplicado.png
+- jira/rastreabilidade_CT05_CT06.txt
+
+--------------------------------------------
+🏁 Conclusão
+--------------------------------------------
+Projeto finalizado com sucesso e documentação completa no Jira.
+Todos os cenários validados, evidências anexadas e rastreabilidade QA garantida.
+Os bugs encontrados foram mantidos como “Won’t Fix” por se tratar de ambiente educacional.
+
+🧠 Autor: Rodrigo Garcia da Silva  
+📌 QA Júnior | Automação de Testes (Cypress)  
+📧 github.com/Rodrigo-Garcia17 | linkedin.com/in/rodrigo-garcia-da-silva

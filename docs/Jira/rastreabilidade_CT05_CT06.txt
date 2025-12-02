@@ -1,0 +1,47 @@
+Rastreabilidade QA – Cadastro de Usuário (Web)
+
+--------------------------------------------
+🔹 CT05 – Nome com caracteres inválidos
+--------------------------------------------
+🎯 Objetivo:
+Validar se o sistema bloqueia nomes com caracteres especiais ou inválidos.
+
+📋 Resultado Obtido:
+O sistema aceitou o nome inválido "@Rodrigo!" e cadastrou o usuário normalmente.
+
+❌ Bug identificado:
+Sistema não valida caracteres inválidos no campo Nome.
+Usuário é cadastrado mesmo com entrada incorreta.
+
+🔗 Card relacionado: BUG-CT05
+📎 Evidência: jira/bug_CT05_nome_invalido.png
+
+🧠 Decisão:
+Bug confirmado em ambiente de estudo (Qazando Shop).  
+Correção não aplicada — documentado para rastreabilidade QA.
+
+--------------------------------------------
+🔹 CT06 – E-mail duplicado
+--------------------------------------------
+🎯 Objetivo:
+Garantir que o sistema não permita cadastrar um e-mail já existente.
+
+📋 Resultado Obtido:
+O sistema permitiu o cadastro com e-mail duplicado, sem exibir mensagem de erro.
+
+❌ Bug identificado:
+Ausência de validação para e-mail já registrado.  
+Fluxo prossegue como se fosse um novo cadastro.
+
+🔗 Card relacionado: BUG-CT06
+📎 Evidência: jira/bug_CT06_email_duplicado.png
+
+🧠 Decisão:
+Bug confirmado em ambiente de estudo (Qazando Shop).  
+Correção não aplicada — registro mantido para documentação.
+
+--------------------------------------------
+📘 Observação Geral:
+Os dois bugs (CT05 e CT06) foram identificados e mantidos com status “Won’t Fix”
+por se tratarem de ambiente acadêmico.  
+Todos os testes foram devidamente documentados e vinculados ao board Jira.
