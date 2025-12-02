@@ -55,6 +55,7 @@ docs/
 
 ## 📎 Evidências
 Todas as evidências de execução (prints e logs Cypress) estão disponíveis na pasta `/docs/evidencias`.
+Link plano de teste: https://docs.google.com/spreadsheets/d/1TmC4CQfRxFbUFHcXsBQ1iR81lkd8kPwm/edit?usp=drive_link&ouid=108860538402249057489&rtpof=true&sd=true
 
 ---
 
